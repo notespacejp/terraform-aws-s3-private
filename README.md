@@ -42,6 +42,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_kms_arn"></a> [kms\_arn](#input\_kms\_arn) | encryption kms arn | `string` | `null` | no |
 | <a name="input_name"></a> [name](#input\_name) | bucket name | `string` | n/a | yes |
+| <a name="input_prefix"></a> [prefix](#input\_prefix) | bucket prefix | `string` | `null` | no |
 
 ## Outputs
 
