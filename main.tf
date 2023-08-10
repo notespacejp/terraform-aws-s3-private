@@ -10,7 +10,6 @@ terraform {
 
 resource "aws_s3_bucket" "this" {
     bucket = var.name
-    bucket_prefix = var.prefix
 }
 
 resource "aws_s3_bucket_server_side_encryption_configuration" "this" {
